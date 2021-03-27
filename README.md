@@ -2,6 +2,6 @@
 This project is a design of my front-end development portfolio done with html and css.
 it includes different sections such as my name, my services, reviews, skills, and work done in the past.
 
-i will be adding further changes in the future. you can reach me at nkematu5@gmail.com
+I will be adding further changes in the future. you can reach me at nkematu5@gmail.com
 
-cheers
+cheers!!
