@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Clock</title>
+</head>
+<body class="bg-gray-800 bg-white w-screen h-screen">
+    <div class="">
+        <img src="images/clock-bg.png" alt="clock" class="absolute hidden md:flex transform -rotate-45 left-10 top-96 w-60 z-0">
+        <img src="images/clock-bg2.png" alt="clock" class="absolute hidden md:flex transform rotate-45 md:right-12 top-96 w-72 z-0">
+    </div>
+        <header class="cursor-pointer text-white text-center md:my-40 mt-10 my-16 text-6xl">Chulo <span class="text-gray-900 bg-white p-2 rounded-3xl font-bold"><i>CR8V</i></span></header>
+    <div class="container flex md:flex-row flex-col justify-center items-center space-y-8 md:space-y-0 md:space-x-6 shadow-2xl">
+        <div class="cursor-pointer space-y-4 rounded-lg w-60 bg-blue-500">
+            <div class="hours text-white text-center text-7xl p-6 m-0">00</div>
+            <div class="text-white text-center text-3xl bg-blue-900 p-5 m-0">HOURS</div>
+        </div>
+        <div class="cursor-pointer space-y-4 rounded-lg w-60 bg-blue-500">
+            <div class="minuites text-white text-center text-7xl p-6 m-0">00</div>
+            <div class="text-white text-center text-3xl bg-blue-900 p-5 m-0">MINUITES</div>
+        </div>
+        <div id="seconds" class="cursor-pointer space-y-4 rounded-lg w-60 bg-red-500 relative z-10">
+            <div class="seconds text-white text-center text-7xl p-6 m-0">00</div>
+            <div class="text-white text-center text-3xl bg-blue-900 p-5 m-0">SECONDS</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body> 
+</html>
